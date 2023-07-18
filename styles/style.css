@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans; 
+}
+.nav-container{
+    min-height: 50px;
+   display: flex;
+   align-items: center;
+   background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+padding: 20px 30px;
+}
+.logo-container{
+    color: black;
+     display: flex;
+     margin-right: 50px;
+     padding-left: 50px;
+     /* justify-content: space-between; */
+    align-items: center;
+    object-fit: cover;
+    width: 50%;
+}
+.logo-container img{
+     margin-right: 10px;
+}
+ 
+ 
+.items-container a{
+    color: #3C354F;
+   text-align: center;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+    width: 50%;
+    margin-right: 20px;
+
+
+}
+.btn{
+    border-radius: 8px;
+   background: rgba(11, 2, 35, 0.10);
+   padding: 10px;
+   align-items: center;
+   justify-content: center;
+   border: none;
+   font-size: 1.2rem;
+   font-weight: 500;
+   cursor: pointer;
+}
+.btn img{
+    gap: 20px;
+}
+.header-container h1{
+    color: #0B0223;
+    text-align: center;
+    width: 50%;
+    padding-top: 100px;
+   font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 600;
+ 
+}
+.header-container span{
+    text-align: center;
+   font-family: Work Sans;
+   font-size: 5rem;
+   font-weight: 800;
+   background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  width: 50%;
+ 
+}
+.section-container p{
+    /* display: flex; */
+    color: #534C64;
+text-align: center;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: lowercase;
+}
+
+.btn-primary{
+    color: #FFF;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+   border: none;
+   margin-top: 20px;
+   padding: 15px 30px;
+   font-size: 1rem;
+ 
+ 
+}
+.btn-secondary{
+    color: #FFF;
+    background: #4EC5F7; 
+    border-radius: 48px;
+    border: none;
+   padding: 15px 30px;
+   font-size: 1rem;
+}
+.banner-container{
+    background-image: url('../images/Group\ 14.png');
+}
+.banner-container, .mainBanner{
+    display: flex;
+    padding-left: 100px;
+    /* width: 711px; */
+/* height: 446px;  */
+    width: 50%;
+    height: 50%;
+    /* height: 50%\; */
+}
+main{
+ 
+        display: flex;
+        align-items: center;
+        background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+        /* width: 40%;
+        height: 50%; */
+    }
+
+
+.hedarText{
+    /* padding-right: 30px; */
+}
+.hedarText, .textheader{
+    text-align: right;
+    
+    font-size: 0.8rem;
+ 
+   font-weight: 700;
+ 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.hedarText p{
+    color: #534C64;
+text-align: right;
+ text-align: left;
+font-size: 1rem;
+ 
+font-weight: 400;
+ 
+}
+.hedarText, span{
+    color: #534C64;
+ 
+font-size: 1.8rem;
+ 
+font-weight: 700;
+ 
+}
+.rectangle-section, h2{
+    color: #0B0223;
+/* text-align: right; */
+ 
+font-size: 2.6rem;
+ 
+font-weight: 700;
+ 
+}
+/* 
+.rectangle-section, text-color{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: Work Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+} */
+
+
+ 
