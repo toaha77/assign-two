@@ -128,6 +128,11 @@ text-transform: lowercase;
    height: 50%;
 
 } */
+.mainBanner{
+  width: 711px;
+height: 446px;
+ 
+}
 .banner-container, .mainBanner{
     display: flex;
     padding-left: 300px;
@@ -142,6 +147,7 @@ text-transform: lowercase;
     gap: 10px;
     padding-top: 20px;
 }
+ 
 .title{
     color: #0B0223;
     text-align: center;
@@ -169,20 +175,15 @@ background-clip: text;
  
  .img-1 img:hover{
     opacity: 0.3;
-    
+    /* color: rgb(210, 62, 62); */
+    border: 4px solid #F948B2;
+    border-radius: 5px;
  }
- .img-2 img:hover{
-    opacity: 0.3;
-
+ .img-1 img{
+  width: 100%;
+  margin: 55px;
  }
- .img-3 img:hover{
-    opacity: 0.3;
-
- }
- .img-4 img:hover{
-    opacity: 0.3;
-
- }
+ 
  .img-1 p{
     color: #534C64;
  
@@ -190,24 +191,7 @@ font-size: 1.2rem;
  font-weight: 500;
   }
   
- .img-2 p{
-    color: #534C64;
  
-font-size: 1.2rem;
- font-weight: 500;
-  }
- .img-3 p{
-    color: #534C64;
- 
-font-size: 1.2rem;
- font-weight: 500;
-  }
- .img-4 p{
-    color: #534C64;
- 
-font-size: 1.2rem;
- font-weight: 500;
-  }
 .banner-two{
     display: flex;
     justify-content: space-around;
@@ -259,6 +243,7 @@ margin-right: 120px;
   }
   .game-container{
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    flex-wrap: wrap;
   }
   .game-container ul{
     /* display: flex; */
@@ -283,7 +268,7 @@ margin-right: 120px;
    background: #FFF;
    border: none;
    color: #0B0223;
-   margin-top: 30px;
+   /* margin-top: 30px; */
    cursor: pointer;
   /* margin-right: 80px; */
    font-size: 1.2rem;
@@ -303,7 +288,7 @@ margin-right: 120px;
    color: #0B0223;
    margin-top: 20px;
    cursor: pointer;
-   margin-left: 80px;
+   /* margin-left: 80px; */
    /* padding: 20px; */
    font-size: 1.2rem;
  font-weight: 600;
@@ -391,16 +376,44 @@ font-weight: 500;
     display: grid;
     flex-direction: row-reverse;
   }
-  .section-container,
+   
+  .banner-container,
   .mainBanner{
-    flex-direction: row-reverse;
-
+    margin-top: 20px;
+    
+   width: 50%;
+    
+     
+    flex-direction: column-reverse;
+    padding-left: 110px;
+    
   }
+  
   .img-container{
     flex-direction: column;
     padding: 25px;
   }
   .game-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .banner-two{
+    flex-direction: column;
+  }
+  .banner-img{
+    margin-top: -200px;
+    height: 100%;
+    padding-right: 500px;
+    width: 1%;
+  }
+  .banner-title{
+     padding-top: 70px;
+     margin-bottom: -100px;
+  }
+  .img-1 img{
+    margin-left: 4px;
+  }
+  .game-container ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
