@@ -142,11 +142,7 @@ height: 446px;
     /* height: 30%; */
     
 }
-.img-container{
-    display: flex;
-    gap: 10px;
-    padding-top: 20px;
-}
+
  
 .title{
     color: #0B0223;
@@ -171,7 +167,12 @@ background-clip: text;
  font-size: 3rem;
  font-weight: 700;
  }
- 
+ .img-container{
+  display: flex;
+  gap: 5px;
+
+  padding-top: 20px;
+}
  
  .img-1 img:hover{
     opacity: 0.3;
@@ -214,12 +215,12 @@ font-size: 1rem;
 font-weight: 400;
   }
   
-   .banner-title, .instant{
+   /* .banner-title, .instant{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
-   }  
+   }   */
   .banner-title, .header-one{
    text-align: center;
     color: black; 
@@ -268,6 +269,7 @@ margin-right: 120px;
    background: #FFF;
    border: none;
    color: #0B0223;
+   margin-left: -10px;
    /* margin-top: 30px; */
    cursor: pointer;
   /* margin-right: 80px; */
@@ -275,10 +277,10 @@ margin-right: 120px;
  font-weight: 600;
  /* grid-template-columns: repeat(1,5fr); */
   }
-  .game-container, .item-two button{
+  .game-container, .item-two  button{
     width: 100%;
     height: 50%;
-    padding: 0px;
+    padding: 10px;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -286,10 +288,11 @@ margin-right: 120px;
    background: #FFF;
    border: none;
    color: #0B0223;
-   margin-top: 20px;
+   /* margin-top: 20px; */
    cursor: pointer;
-   /* margin-left: 80px; */
-   /* padding: 20px; */
+   /* margin-right: 80px; */
+   margin-left: 50px;
+   padding: 20px;
    font-size: 1.2rem;
  font-weight: 600;
   }
@@ -334,9 +337,7 @@ background-clip: text;
     margin-top: 10px; 
     font-size: 1rem;
   }
-  .footer-img {
-       /* padding: 50px; */
-  }
+ 
   .footer-img img{
     margin-top: 20px;
     justify-content: space-between;
@@ -345,6 +346,7 @@ background-clip: text;
     background: white;
   }
   .footer-condition, li, a{
+    color: rgba(255, 255, 255, 0.60); 
       display: flex;
       text-align: center;
       gap: 20px;
@@ -417,6 +419,15 @@ font-weight: 500;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .game-container .item-one button{
+    margin-left: -40px;
+  }
+  .game-container, .item-two  button{
+    margin-left: -40px;
+  }
+}
+@media screen and (min-width:577px) and (max-width) {
+  
 }
  
 
