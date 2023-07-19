@@ -426,7 +426,28 @@ font-weight: 500;
     margin-left: -40px;
   }
 }
-@media screen and (min-width:577px) and (max-width) {
+@media screen and (min-width:577px) and (max-width:978px) {
+  .game-container ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .game-container .item-one button{
+    margin-left: -40px;
+  }
+  .game-container, .item-two  button{
+    margin-left: -40px;
+  }
+  .banner-container,
+  .mainBanner{
+    margin-top: 20px;
+    
+   width: 50%;
+    
+     
+    flex-direction: column-reverse;
+    padding-left: 110px;
+    
+  }
   
 }
  
