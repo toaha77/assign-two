@@ -327,7 +327,17 @@ margin-top: 20px;
   font-size: 1rem; 
 font-weight: 500;
  
-  
+  }
+
+
+@media screen and (max-width:576px) {
+  .nav-container,
+  .items-container, ul{
+    display: grid;
+
+    flex-direction: column;
+  }
+}
  
 
 
