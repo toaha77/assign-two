@@ -175,10 +175,10 @@ background-clip: text;
 }
  
  .img-1 img:hover{
-    opacity: 0.3;
+    opacity: 0.2;
     /* color: rgb(210, 62, 62); */
     border: 4px solid #F948B2;
-    border-radius: 5px;
+    border-radius: 20px;
  }
  .img-1 img{
   width: 100%;
@@ -187,7 +187,7 @@ background-clip: text;
  
  .img-1 p{
     color: #534C64;
- 
+   
 font-size: 1.2rem;
  font-weight: 500;
   }
