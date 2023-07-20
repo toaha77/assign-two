@@ -176,12 +176,26 @@ background-clip: text;
  
  .img-1 img:hover{
     opacity: 0.2;
-    /* color: rgb(210, 62, 62); */
+     color: rgb(210, 62, 62); 
     border: 4px solid #F948B2;
     border-radius: 20px;
- }
+ } 
+ .overlay{
+  position: relative;
+  width: 30px;
+  margin-top: -330px;  
+  margin-left: 100px;
+  cursor: pointer;
+   
+}
+.overlay p{
+  margin-top: -50px;
+  margin-left: 50px;
+}
+ 
  .img-1 img{
   width: 100%;
+  /* margin-bottom: 50px; */
   margin: 55px;
  }
  
@@ -225,7 +239,7 @@ font-weight: 400;
    text-align: center;
     color: black; 
     font-size: 3rem;
- 
+   margin-top: 200px;
    font-weight: 700;
  
   }
@@ -234,7 +248,8 @@ font-weight: 400;
     overflow: visible;
     width: 520.833px;
 height: 550px;
-margin-right: 120px;
+margin-top: 300px;
+margin-right: 100px;
  
   }
   .banner-img-2{
@@ -259,9 +274,9 @@ margin-right: 120px;
   }
   
   .game-container .item-one button{
-    width: 100%;
+    width: 90%;
     height: 50%;
-    padding: 10px;
+    padding: 2px;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -269,18 +284,18 @@ margin-right: 120px;
    background: #FFF;
    border: none;
    color: #0B0223;
-   margin-left: -10px;
+   margin-left: -150px;
    /* margin-top: 30px; */
    cursor: pointer;
   /* margin-right: 80px; */
-   font-size: 1.2rem;
+   font-size: 1rem;
  font-weight: 600;
  /* grid-template-columns: repeat(1,5fr); */
   }
   .game-container, .item-two  button{
     width: 100%;
     height: 50%;
-    padding: 10px;
+    padding: 0px;
     display: flex;
    align-items: center;
     justify-content: center;
@@ -291,9 +306,9 @@ margin-right: 120px;
    /* margin-top: 20px; */
    cursor: pointer;
    /* margin-right: 80px; */
-   margin-left: 50px;
-   padding: 20px;
-   font-size: 1.2rem;
+   margin-left: 80px;
+   padding: 0px;
+   font-size: 1rem;
  font-weight: 600;
   }
   .game-container li button:hover{
@@ -362,6 +377,9 @@ font-weight: 500;
  
   }
 
+ 
+
+ 
 
 @media screen and (max-width:576px) {
   .nav-container,
@@ -420,11 +438,14 @@ font-weight: 500;
     grid-template-columns: repeat(3, 1fr);
   }
   .game-container .item-one button{
-    margin-left: -40px;
+    margin-left: -5px;
+   
   }
   .game-container, .item-two  button{
-    margin-left: -40px;
+    margin-left: -50px;
+    padding-left: 50px;
   }
+  
 }
 @media screen and (min-width:577px) and (max-width:978px) {
   .game-container ul{
